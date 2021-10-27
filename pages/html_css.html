@@ -2,16 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSS оформление</title>
+    <title>Об языке CSS </title>
 </head>
 <body>
-   <h1>Об оформлении на языке CSS</h1>
-    <ul>
-        <li>
-             <a href="../index.html">Главная страница</a>
-        </li>
-        <li> <a href= "html_layout.html"> HTML верстка</a> </li>
-        <li><a href = "html_JS.html"> JS программирование</a> </li>
-    </ul>    
+    <table border= "1" width= "100%">
+        <tr>
+            <td rowspan="2" width="50"><img src="../images/css.png" width="40" height="50"></td>
+            <td rowspan="2">Мой сайт - мой дизайн!!!!!!!!!!</td>
+            <td>Логин</td>
+        </tr>
+        <tr>
+            <td colspan="2">Пароль</td>
+        </tr>
+        <tr>
+            <td colspan="3"> <a href="../index.html">Главная страница</a> 
+                <a href = "html_table.html">Табличная верстка</a>
+                <a href = "html_JS.html"> JS программирование</a>
+            </td>
+        </tr>
+    </table>
+    <table border= "1" width= "100%">
+        <tr>
+            <td rowspan="2" width="200">
+                <P>Список товарищей</P>
+                <ul>
+                <li>
+                     1 товарищ 
+                </li>
+                <li> 2 товарищ  </li>
+            </ul>    
+        </td>
+        <td> 
+            <p>CSS - это язык оформления HTML-документов. За более подробной информацией <a href="https://ru.wikipedia.org/wiki/CSS">сюда</a>. Так как он является вспомогательным языком, то существует несколько основных способов его добавления на web-страницу:</p>
+<ul>
+<li>Внешний &#60;link rel="stylesheet" href="style.css"&#62; </li>
+<li>Внутренний глобальный &#60;style&#62;&#60;/style&#62;</li>
+<li>Внутренний локальный &#60;span style="color: red"&#62;&#60;/span&#62;</li>
+</ul>
+ 
+
+<p>Синтаксис языка выглядит следующим образом: 
+сначала указывается изменяемый элемент с помощью селектора,
+после этого в фигурных скобках перечисляются через точку с запятой изменяемые 
+свойства элемента (цвет, размер, расположение и т.д.), затем напротив каждого свойства 
+указывается значение (red, left, 1px и т.д.). Например:</p>
+<pre>
+                        table  {
+                            width: 80%;
+                            border-color: white;
+                            border-style: groove;
+                            border-width: 5px;
+                        }
+</pre>
+                    
+<p>В ситуации когда изменить необходимо только некоторые элементы,
+следует пользоваться указателями класса: когда одни и теже теги принадлежат 
+разным классам и оформляются по разному.</p>
+<p>&#60;table class="header"&#62;&#60;/table&#62;</p>
+<p>&#60;table class="main"&#62;&#60;/table&#62;</p>
+           </td>
+        </tr>
+        
+
+
+    </table>
 </body>
 </html>
