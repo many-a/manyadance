@@ -1,1 +1,44 @@
+body {
+    font-family: cursive;
+    background-image: url(../images/background_about_css.png);
+    background-repeat:repeat;
+}
+table {
+    width: 80%;
+    border-color: white;
+    border-style:groove;
+    border-width: 5px;
+}
+td {
+    border-color: white;
+    border-style:groove;
+    border-width: 5px;
+}
+span {
+    font-weight:bold;
+}
 
+table.header {
+    background-color: rgba(236, 204, 165, 0.61);
+}
+
+table.main {
+
+    background-color: rgba(201, 161, 113, 0.61);
+}
+
+table.footer {
+    background-color: rgba(94, 68, 37, 0.61);
+}
+
+.header-textlogo {
+    color:rgb(136, 105, 58);
+    font-size: 48px;
+    font-style: italic;
+    font-family: cursive; 
+}
+
+.header-menu li {
+    list-style: none;
+    display: inline;
+}
