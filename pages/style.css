@@ -1,0 +1,15 @@
+header {
+    background-color: lightpink;
+    height: 10%;
+    width: 50%;
+} 
+main {
+	background-color: blue;
+    height: 70%;
+    width: 50%;
+}
+div.logo {
+	background-color: PowderBlue;
+    height: 90%;
+    width: 20%;
+}
