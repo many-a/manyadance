@@ -22,9 +22,10 @@ div.logo {
     border-radius: 2em;
 }
 nav {
+    margin: 10px;
     background-color: gray;
     height: 90%;
-    width: 80%;
+    width: 76%;
     float: right;
     border-radius: 2em;
 }
