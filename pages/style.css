@@ -6,12 +6,13 @@ header {
     border-radius: 2em;
 }
 main {
-	background-color: blue;
+	background-color: lightpink;
     height: 800px;
     width: 1000px;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2em;
 }
 div.logo {
     margin: 10px;
@@ -27,5 +28,13 @@ nav {
     height: 90%;
     width: 76%;
     float: right;
+    border-radius: 2em;
+}
+footer {
+    background-color: lightpink;
+    height: 200px;
+    width: 1000px;
+    margin-top: 15px;
+    margin:auto;
     border-radius: 2em;
 }
